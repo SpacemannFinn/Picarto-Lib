@@ -1,0 +1,32 @@
+{
+    "name": "picarto-lib",
+    "version": "1.0.0",
+    "description": "Basic Library to make interfacing with picarto easier",
+    "main": "src/Index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SpacemannFinn/Picarto-Lib.git"
+    },
+    "keywords": [
+        "picarto",
+        "Picarto",
+        "streaming",
+        "bot",
+        "discord"
+    ],
+    "author": "Sochima Nwobia <sochimadn@gmail.com> (SpacemannFinn/Nen)",
+    "license": "(MIT)",
+    "bugs": {
+        "url": "https://github.com/SpacemannFinn/Picarto-Lib/issues"
+    },
+    "homepage": "https://github.com/SpacemannFinn/Picarto-Lib#readme",
+    "dependencies": {
+        "cheerio": "1.0.0-rc.2",
+        "fs": "0.0.1-security",
+        "request": "2.81.0",
+        "scrape-it": "3.3.2"
+    }
+}
