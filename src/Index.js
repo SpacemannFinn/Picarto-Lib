@@ -10,6 +10,7 @@ var pageURL;
 module.exports = {
 
     get: function get(user) {
+
         var puser = user;
 
         function scrapePage() {
@@ -18,8 +19,9 @@ module.exports = {
             request(pageURL, function(error, response, responseHtml) {
 
                 //write the entire scraped page to the local file system
-                JSON.stringify(responseHtml);
-                //console.log
+                info = JSON.stringify(responseHtml);
+
+                console.log(info);
             });
         }
 
