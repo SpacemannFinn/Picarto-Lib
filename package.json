@@ -4,7 +4,7 @@
     "description": "Basic Library to make interfacing with picarto easier",
     "main": "src/Index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha src/index.test.js -w"
     },
     "repository": {
         "type": "git",
@@ -26,7 +26,12 @@
     "dependencies": {
         "cheerio": "1.0.0-rc.2",
         "fs": "0.0.1-security",
+        "jsonfile": "3.0.1",
         "request": "2.81.0",
         "scrape-it": "3.3.2"
+    },
+    "devDependencies": {
+        "chai": "4.1.0",
+        "mocha": "3.5.0"
     }
 }

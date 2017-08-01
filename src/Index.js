@@ -3,7 +3,7 @@ const fs = require('fs');
 const quest = require('request');
 const cheerio = require('cheerio');
 var jsonfile = require('jsonfile');
-var user = picarto.user;
+
 
 
 
@@ -18,7 +18,7 @@ module.exports = {
             request(pageURL, function(error, response, responseHtml) {
 
                 //write the entire scraped page to the local file system
-                JSON.stringify(responseHtml);
+                info = JSON.stringify(responseHtml);
             });
         }
 
