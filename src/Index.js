@@ -1,6 +1,6 @@
 var channel = 'https://api.picarto.tv/v1/channel/name/'
 const fs = require('fs');
-const quest = require('request');
+const request = require('request');
 const cheerio = require('cheerio');
 var jsonfile = require('jsonfile');
 var pageURL;
@@ -19,7 +19,7 @@ module.exports = {
             request(pageURL, function(error, response, responseHtml) {
 
                 //write the entire scraped page to the local file system
-                info = JSON.stringify(responseHtml);
+                info = JSON.parse(responseHtml);
 
                 console.log(info);
             });
