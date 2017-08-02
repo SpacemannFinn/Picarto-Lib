@@ -15,5 +15,5 @@ picarto.get('streamer-name');
 ```
 
 ```
--This lib was made to make a couple things slightly easier for me so please if any issues arise please inform me of it and if you have any contributions please make a pull on github and I'll merge em after a quick check
+This lib was made to make a couple things slightly easier for me so   please if any issues arise please inform me of it and if you have any   contributions please make a pull on github and I'll merge em after a   quick check
 ```
