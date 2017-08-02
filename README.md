@@ -3,7 +3,7 @@
 ## To install use
 
 ```CLR 
-npm install picarto-lib@1.0.6
+npm install picarto-lib@1.0.7
 ```
 
 ## When using the library:
