@@ -1,6 +1,6 @@
 {
     "name": "picarto-lib",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Basic Library to make interfacing with picarto easier",
     "main": "src/Index.js",
     "scripts": {
